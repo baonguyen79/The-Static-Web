@@ -1,16 +1,6 @@
-
-body {
-	font-size: 1.2em;
-	font-family: 'Varela Round', sans-serif;
-	/*color: #fff;*/
-	/*background: #e8e9e9;*/
-	/*padding-left: 5%;*/
-	/*padding-right: 5%;*/
-}
-
 .container {
-	
-	/*background:  pink;*/
+	width: 100%;
+    height: 250px;
 	margin: 15px auto;
 	display: flex;
 	flex-direction: row;
@@ -20,12 +10,52 @@ body {
 }
 
 .item {
-	width: 30%;
-	/*height: 100px;*/
-	/*color: #fff;*/
+	width: 25%;
+	height: auto;
 	padding: 15px;
 	margin: 15px;	
-	/*background: #3db5da;*/
 	border: 2px solid;
-	border-color: blue;
+	/*flex: 1 6 20%*/
+	border-color: lightblue;
+
 }
+
+.item img {
+	min-width: 75%;
+	height: auto;
+}
+
+.container h2 {
+	border: 1px solid lightgray;
+	font-size: 1em;
+	text-align: center;
+	/*padding: 1em;*/
+	margin-top: -10px;
+}
+
+.container h4 {
+	background-color: gray;
+	color:  yellow;
+	font-size: small;
+}
+
+.container h3 {
+	font-size: 20px;
+}
+
+.spec {
+	font-weight: bold;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.container footer {
+	box-sizing: border-box; 
+	font-size: small;
+	/*padding-top: 10px;*/
+}
+
+
+
